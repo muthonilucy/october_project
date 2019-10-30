@@ -1,11 +1,14 @@
-food = ['rice', 'ugali', 'greens']
-if 'rice' in food:
-    print("food found!")
+score = 50
 
-# value not in list
-food2 = ['pizza', 'bread', 'fish', 'chicken', 'pilau']
-allowed = 'milk'
-if allowed not in food2:
-    print(allowed.title() + " is the only food allowed in the premises!")
-
-
+if score >= 80:
+    print("A")
+elif 70 <= score <= 79:
+    print("B")
+elif 60 <= score <= 69:
+    print("C")
+elif 50 <= score <= 59:
+    print("D")
+elif 40 <= score <= 49:
+    print("E")
+else:
+    print("Fail")
